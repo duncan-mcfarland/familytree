@@ -202,7 +202,7 @@ def createHTML(memberArray):
     longs = []
 
     gmap = gmplot.GoogleMapPlotter(37.616063, -76.238841, 5)  # Center the Map on Northeast
-    gmap.apikey = "AIzaSyDBsNBaHWoAc-D34x5ulLf7JzhzRbEBp8U"  # Hard-code my Google API code for this program
+    gmap.apikey = "API-KEY-GOES-HERE"  # Hard-code my Google API code for this program
 
     for member in memberArray:  # Iterate through the members passed
         testPlace = member.getPlaces()
